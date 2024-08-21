@@ -1,33 +1,59 @@
 body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+#story {
+    text-align: center;
+}
+
+#scene-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#story-text {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#choices {
+    margin-top: 20px;
 }
 
 button {
-    background-color: #64A712;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
 }
 
-.passo {
-    display: none;
-}
-
-.passo.ativo {
-    display:block;
-}
-
-main {
-    text-align: center;
-    max-width: 90%;
-}
-
-img {
-    max-width: 90%;
+button:hover {
+    background-color: #0056b3;
 }
