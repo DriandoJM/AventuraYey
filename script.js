@@ -270,3 +270,6 @@ function showStory(storyKey) {
 }
 
 window.onload = startGame;
+
+
+//exagerei um bucadinho só, liga não
