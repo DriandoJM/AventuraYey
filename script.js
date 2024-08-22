@@ -97,10 +97,18 @@ const story = {
         ]
     },
     ritual: {
-        text: "O feitiço parece funcionar e você sente uma proteção ao seu redor. No entanto, algo ainda parece não estar certo. O que faz?",
+        text: "O feitiço parece funcionar e você sente uma pressão ao seu redor. No entanto, algo ainda parece não estar certo. O que faz?",
         image: "images/ritual.jpg",
         choices: [
             { text: "Investigar a área ao redor", next: "surroundings" },
+            { text: "Voltar para a floresta", next: "forest" }
+        ]
+    },
+       surroundings: {
+        text: "Olhando melhor ao redor você nota uma estranha neblina, quase líquida, cobrindo o chão, seguido de uma estranha apreensão. O que faz?",
+        image: "images/surroundings.jpg",
+        choices: [
+            { text: "Voltar para a vila", next: "village" },
             { text: "Voltar para a floresta", next: "forest" }
         ]
     },
