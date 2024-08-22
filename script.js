@@ -201,7 +201,7 @@ const story = {
         ]
     },
     secret: {
-        text: "Você descobre que a ilha é um antigo portal para um reino sombrio. O que faz?",
+        text: "Você descobre que um pintor escondeu que a ilha possui um portal para um mundo macabro através de quadros. O que faz?",
         image: "images/secret.jpg",
         choices: [
             { text: "Entrar no portal", next: "portal" },
@@ -234,7 +234,7 @@ const story = {
         text: "Você confronta o guardião e enfrenta desafios aterrorizantes. O que faz?",
         image: "images/confrontGuardian.jpg",
         choices: [
-            { text: "Vencer o desafio", next: "winChallenge" },
+            { text: "Tentar a sorte", next: "winChallenge" },
             { text: "Fugir", next: "forestEscape" }
         ]
     },
@@ -242,7 +242,7 @@ const story = {
         text: "Você vence o desafio do guardião e descobre um segredo profundo sobre a ilha.",
         image: "images/winChallenge.jpg",
         choices: [
-            { text: "Descobrir o segredo", next: "secret" },
+            { text: "Aprofundar-se no segredo", next: "secret" },
             { text: "Voltar para a vila", next: "village" }
         ]
     }
